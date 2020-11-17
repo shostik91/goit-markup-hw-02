@@ -32,15 +32,19 @@ a {
     color: #2196F3;
 }
 
-.nav-list a {
+.nav-list.studio {
     text-transform: capitalize;
     font-size: 14px;
+    font-weight: 500;
     line-height: 1.14;
     color: #212121;
+    letter-spacing: 0.02 em;
 }
 
 .studio {
-    color: #2196F3; 
+    color: #212121;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .first {
@@ -196,6 +200,8 @@ footer div {
     font-size: 14px;
     line-height: 1.67;
     color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-style: normal;
 }
 .adress {
     color: #FFFFFF;
@@ -209,9 +215,12 @@ footer div {
 .buttom:hover, .buttom:focus {
     background-color: var(--color-blue);
     color: var(--color-wight);
-}
+} 
 
-.guide li{
+.buttom {
+    font-family: Roboto;
+    letter-spacing: 0.03em;
+    font-style: normal;
     text-transform: capitalize;
     font-weight: 500;
     font-size: 16px;
@@ -226,8 +235,9 @@ footer div {
 
 .progect-what {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     color: #757575;
+    font-weight: 400;
 }
 
 .buttom {
