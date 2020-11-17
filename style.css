@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+:root {
+    --color-black: #212121;
+    --color-gray: #757575;
+    --color-wight: #FFFFFF;
+    --color-blue: #2196F3;
+    --color-gray-transparent: rgba(255, 255, 255, 0.6);
+}
+
 body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
