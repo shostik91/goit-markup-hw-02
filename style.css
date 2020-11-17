@@ -43,6 +43,13 @@ a {
     color: #2196F3; 
 }
 
+.first {
+    color: #2196F3; 
+}
+
+.studio.first {
+    color:var(--color-blue);
+}
 
 .main-nav a {
     color: #212121;
@@ -189,6 +196,12 @@ footer div {
     font-size: 14px;
     line-height: 1.67;
     color: rgba(255, 255, 255, 0.6);
+}
+.adress {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.67;
+
 }
 
 /* Стили к портфолио */
