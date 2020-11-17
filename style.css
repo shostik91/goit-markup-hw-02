@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0px;
+    text-decoration: none;
+    list-style: none;
 }
 
 :root {
@@ -79,15 +81,19 @@ a {
 }
 
 .button {
+    font-family: Roboto;
     position: absolute;
     width: 200px;
     height: 50px;
     left: 700px;
     top: 430px;
     background: #2196F3;
+    border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
+
+
 
 .ability h3 {
     color: #212121;
@@ -150,6 +156,8 @@ a {
    }
 
 .profession {
+    font-size: 14px;
+    line-height: 1.71;
     color: #757575;
     }
 
@@ -174,31 +182,20 @@ footer div {
     line-height: 1.19;
 }
 
-.adress li {
-    color: #FFFFFF;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2208px;
-    font-size: 14px;
-    line-height: 2.0;
-
+.footer-cont:hover, .footer-cont:focus {
+    color: var(--color-blue);
 }
-
-.adress a {
-    color: rgba(255, 255, 255, 0.6);
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2238px;
+.footer-cont {
     font-size: 14px;
-    line-height: 2.0;
+    line-height: 1.67;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* Стили к портфолио */
 
-.guide li:hover {
-    background: #2196F3;
+.buttom:hover, .buttom:focus {
+    background-color: var(--color-blue);
+    color: var(--color-wight);
 }
 
 .guide li{
@@ -218,4 +215,12 @@ footer div {
     font-size: 16px;
     line-height: 30px;
     color: #757575;
+}
+
+.buttom {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #212121;
+    background: #F5F4FA;
 }
